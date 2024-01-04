@@ -36,7 +36,7 @@ export default function Home() {
           </Link>
           </>)
         })}
-        <a href="public/CV.pdf" download = "CV.pdf">Download my CV</a>
+        <a href="/CV.pdf" download>Download my CV</a>
    </div>
    
       
