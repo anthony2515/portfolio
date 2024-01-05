@@ -1,0 +1,150 @@
+.body{
+  margin:0;
+  padding:0;
+  background: #211E1E;
+  
+}
+.home{
+  height: 100vh;
+  background: linear-gradient(180deg, #222F3E 0%, #211E1E 100%);
+}
+.links{
+  position:absolute;
+  display:flex;
+  align-items: center;
+  gap:10px;
+  top:20px;
+  right:100px;
+  
+}
+.linkImage{
+  filter: brightness(200%); 
+  
+}
+.cv{
+  box-sizing: border-box;
+  background: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:55px;
+  width:55px;
+  border:6px solid #0246C0;
+  border-radius:50%;
+  align-content: center;
+  color: white;
+  text-decoration: none;
+}
+.nav{
+  position: fixed;
+  background:#211E1E;
+  height:60px;
+  width:600px;
+  top:20px;
+  right:0;
+  bottom:0;
+  left:0;
+  margin: 0 auto;
+  border-radius: 76px;
+  border: 1px solid #413E3E;
+  box-shadow: 9px 6px 32.9px 0px rgba(16, 101, 228, 0.25);
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap:20px;
+  z-index:1;
+}
+.navLink{
+  text-decoration: none;
+  color:#0246C0;
+  font-size: 20px;
+}
+.navLink:hover{
+  transition:.5s;
+  
+  filter: brightness(200%);
+}
+.navLink:focus{
+  filter:brightness(200%)
+}
+.image{
+  position:absolute;
+  top:100px;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:0 auto;
+  height:200px;
+  width:200px;
+  border:1px solid black;
+  border-radius:50%;
+  stroke-width: 1px;
+  stroke: #000;
+  filter: drop-shadow(12px 5px 12.3px rgba(16, 101, 228, 0.25));
+
+}
+.pTitle{
+  position:absolute;
+  top:280px;
+  left: 0;
+  right:0;
+  bottom: 0;
+  text-align:center;
+  color: #30D6ED;
+  font-size: 30px;
+  font-weight: 200;
+}
+.pDescription{
+  position:absolute;
+  top:360px;
+  left: 50px;
+  right:50px;
+  bottom: 0;
+  text-align:left;
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  margin-left:300px;
+  margin-right: 300px;
+  line-height: 50px;
+}
+.span{
+  color:red;
+}
+.projects{
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 100vh;
+  padding-top: 60px;
+}
+.font{
+ font-size: 30px;
+ color: #30D6ED;
+ text-align: center;
+ margin-bottom: 0;
+}
+.projectContainer{
+  margin-top: 20px;
+  
+  height:26vh;
+  display:flex;
+  gap:20px;
+}
+.projectImage{
+  border-radius: 29px;
+  background: #D9D9D9;
+  box-shadow: 10px 14px 10.3px 1px rgba(48, 214, 237, 0.19);
+  height:20vh;
+  width:500px;
+  background-color: white;
+}
+.projectDesc{
+  height: 26vh;
+  width: 100vw;
+  border-radius: 17px;
+  border: 1px solid #1F598E;
+  background: rgba(48, 214, 237, 0.16);
+}
+.textColor{
+  color:#30D6ED;
+}
