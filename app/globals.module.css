@@ -1,9 +1,14 @@
+
+.html{
+  scroll-behavior:smooth;
+}
 .body{
   margin:0;
   padding:0;
   background: #211E1E;
   
 }
+
 .home{
   height: 100vh;
   background: linear-gradient(180deg, #222F3E 0%, #211E1E 100%);
@@ -65,7 +70,7 @@
   filter: brightness(200%);
 }
 .navLink:focus{
-  filter:brightness(200%)
+  filter:brightness(200%);
 }
 .image{
   position:absolute;
@@ -120,7 +125,7 @@
 .font{
  font-size: 30px;
  color: #30D6ED;
- text-align: center;
+ text-align: left;
  margin-bottom: 0;
 }
 .projectContainer{
@@ -147,4 +152,12 @@
 }
 .textColor{
   color:#30D6ED;
+}
+.projectTitle{
+  text-align:center;
+  color:rgb(214, 203, 203);
+  font-size:1.5rem;
+}
+.projectDescFont{
+  color:rgb(214, 203, 203);
 }
