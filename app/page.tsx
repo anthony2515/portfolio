@@ -15,16 +15,17 @@ export default function Home() {
       image:"/github.svg"
     }
   ]
+  const {nav} = style;
   return (
   <>
     <div id = "home"className = {style.home}>
     
-      <div className = {style.nav}>
+      <div className = {nav}>
         <Link href = '#home'className = {style.navLink}>Home</Link>
         <Link href = '#projects'className = {style.navLink}>Projects</Link>
-        <Link href = '#'className = {style.navLink}>Skills</Link>
-        <Link href = '#'className = {style.navLink}>Education</Link>
-        <Link href = '#'className = {style.navLink}>Contact Me</Link>
+        <Link href = '#skills'className = {style.navLink}>Skills</Link>
+        <Link href = '#education'className = {style.navLink}>Education</Link>
+      
       </div>
       <div className = {style.links}>
         {links.map((link,index)=>{
@@ -53,11 +54,17 @@ export default function Home() {
         <p className = {style.pTitle}>Web Developer</p>
         
         <p className = {style.pDescription}>Hello everyone, My name is <span className ={style.span}>Anthony</span>, I am a passionate programmer focusing on full-stack web development. I love learning new things, especially studying new codebases and related frameworks. I also love working on Test Driven    Development tasks to meet all the expected outputs from each stack(from back-end to front-end).</p>
+        <div className = {style.contact}>
+        <p>Email: anthony.santiago58@yahoo.com</p>
+        <p>Contact #: +64220458747</p>
+        </div>
+        
    </div>
-   <div className = {style.projects}>
+   {/* Project Section */}
+   <div id = "projects" className = {style.projects}>
         <p  className={style.font}>Projects</p>
         {/*  */}
-        <div id = "projects" className = {style.projectContainer}>
+        <div className = {style.projectContainer}>
           <div>
             {/* Project Video */}
             <div className={style.projectImage}>
@@ -116,11 +123,56 @@ export default function Home() {
           <div className={style.projectDesc}>
           <p className = {style.projectTitle}>Kanban Board</p>
           <ul className = {style.projectDescFont}>
-          <li>- a simple personal project that replicates a Kanban Board where the user can add a backlog and move tasks to the next stages until it's done</li>
+          <li>- a simple project that replicates a Kanban Board where the user can add a backlog and move tasks to the next stages until it's done</li>
           </ul>
           </div>
         </div>
-        
+        {/* Skills Section */}
+     <div id = "skills" className = {style.skills}>
+      <p className = {style.font}>Skills</p>
+      <div className = {style.skillsContainer}>
+        <p className = {style.skillFont}>Technical Skills</p>
+        <ul className={style.skillDescription}>
+          <li>I mainly use HTML, CSS React.js, Javascript, TypeScript, Knex, Node.js, Sqlite3</li>
+          <li>Building and Consuming API's</li>
+          <li>Git and Github</li>
+          <li>Test Driven Development using Javascript libraries</li>
+          <li>Project Deployment using Vercel</li>
+        </ul>
+        <p className = {style.skillFont}>Human Skills</p>
+        <div className = {style.hsContainer}>
+          <span className = {style.hsFont}>Empathy & Listening</span>
+          <span className = {style.hsFont}>Self Compassion</span>
+          <span className = {style.hsFont}>Conflict Resolution</span>
+          <span className = {style.hsFont}>Giving & Receiving Feedback</span>
+          <span className = {style.hsFont}>Bias, Diversity and Inclusion</span>
+        </div>
+      </div>
+      </div>
+         {/*Education Section*/}
+      <div id = "education" className = {style.skills}>
+      <p className = {style.font}>Education</p>
+      <div className = {style.eduContainer}>
+        <p className = {style.eduFont}>Dev Academy Aotearoa</p>
+        <p className = {style.dateFont}>Aug 2023 - Dec 2023</p>
+        <p className = {style.eduDescription}>It's a 17-week web development boot camp that imitates a real-life development team. This course taught us a modern tech stack with a
+            strong focus on human skills, collaboration, and working in a team using agile methodology. We were trained to work in pairs daily with an
+            opportunity to give valuable feedback to each other and work on a larger group of 4-5 members before the weekends.
+        </p>
+        <p className = {style.eduFont}>Technological Institute of the Philippines</p>
+        <p className={style.dateFont}>Jun 2012 - Apr 2016</p>
+        <p className = {style.bsit}>Bachelor of Science in Information Technology</p>
+        <ul className={style.eduDescription}>
+        <li>This is the main foundation for my thirst for knowledge. I love working in the tech industry because I have a good understanding of general</li>
+                  IT concepts
+            <li>Studied 4 years of Database Administration using Oracle SQL, MSSQL, MYSQL</li>
+            <li>Familiarity with programming languages such as C++, C#, and Java</li>
+            <li>Data Structures (ArrayList, LinkedList, Stack, etc)</li>
+            <li>Object Oriented Programming</li>
+        </ul>
+      </div>
+      </div>
+      
    </div>
    </>
       

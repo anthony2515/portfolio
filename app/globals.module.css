@@ -44,7 +44,7 @@
   position: fixed;
   background:#211E1E;
   height:60px;
-  width:600px;
+  width:400px;
   top:20px;
   right:0;
   bottom:0;
@@ -116,6 +116,18 @@
 .span{
   color:red;
 }
+.contact{
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  position:absolute;
+  top:720px;
+  right:0;
+  left:0;
+  text-align:center;
+  color:white;
+  font-weight: 100;
+}
 .projects{
   margin-left: 100px;
   margin-right: 100px;
@@ -159,5 +171,84 @@
   font-size:1.5rem;
 }
 .projectDescFont{
-  color:rgb(214, 203, 203);
+  color:rgb(163, 155, 155);
+}
+.skills{
+  padding-left:20px;
+  padding-right:20px;
+  margin-top: 10px;
+  height:100vh;
+  padding-top: 60px;
+}
+.skillsContainer{
+  border:1px solid #1F598E;
+  height:80%;
+  border-radius:20px;
+  box-shadow: 10px 14px 10.3px 1px rgba(48, 214, 237, 0.19);
+}
+.skillFont{
+  font-size: 30px;
+  color: #30D6ED;
+  text-align: center;
+}
+.skillDescription{
+  text-align:left;
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  margin-left:300px;
+  margin-right: 300px;
+  line-height: 50px;
+}
+.hsContainer{
+ 
+  display:flex;
+  justify-content: center;
+  gap:50px;
+  flex-wrap:wrap;
+  margin-left:300px;
+  margin-right: 300px;
+}
+.hsFont{
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+}
+.hsFont:hover{
+  cursor: pointer;
+  transition: .5s;
+  color: #30D6ED;
+  font-size: 30px;
+  font-weight: 200;
+  padding:10px;
+  border-radius: 50px;
+  box-shadow: 10px 14px 30.3px 1px rgba(48, 214, 237, 0.19);
+}
+.hsFont:not(:hover){
+  transition:.5s;
+}
+.eduContainer{
+  padding-left:100px;
+  padding-right: 300px;
+  border:1px solid #1F598E;
+  height:80%;
+  border-radius:20px;
+  box-shadow: 10px 14px 10.3px 1px rgba(48, 214, 237, 0.19);
+}
+.eduFont{
+  color: #30D6ED;
+  font-size:30px;
+}
+.dateFont{
+  color:white;
+  font-size:20px;
+}
+.eduDescription{
+  color:white;
+  font-weight: 200; 
+}
+.bsit{
+  color:white;
+  font-weight:300;
+  font-size:20px
 }
