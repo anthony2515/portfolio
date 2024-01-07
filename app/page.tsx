@@ -79,6 +79,7 @@ export default function Home() {
 
           {/* Project Description */}
           <div className={style.projectDesc}>
+            
             <p className = {style.projectTitle}>Ton's Grocery</p>
             <ul className = {style.projectDescFont}>
              <li>It's a personal project that is inspired by cloning Mighty Ape. However, I’m still working on it as it has so many features to work on. But most importantly, I met my MVP(minimum viable product) to get this started. </li>
@@ -88,6 +89,7 @@ export default function Home() {
               <li>please check my github repo for this project to see the latest version</li>
               
             </ul>
+            <Link className = {style.link}href="https://github.com/anthony2515/mightyape-clone">https://github.com/anthony2515/mightyape-clone</Link>
           </div>
         </div>
         {/*  */}
@@ -107,6 +109,7 @@ export default function Home() {
           <li>This is one of our group projects that I worked on and this is made for users who are confused about choosing a restaurant. The main goal of this project is to give them one random restaurant to go to. </li>
           <li>- My contribution to this project is to consume an API from Google Maps API to get the specific coordinates of the location that users typed and also made a delete functionality for users to delete some locations that they don't want on the list</li>
           </ul>
+          <Link className = {style.link}href="https://github.com/anthony2515/Hungry-Games">https://github.com/anthony2515/Hungry-Games</Link>
           </div>
         </div>
         {/*  */}
@@ -125,6 +128,7 @@ export default function Home() {
           <ul className = {style.projectDescFont}>
           <li>- a simple project that replicates a Kanban Board where the user can add a backlog and move tasks to the next stages until it's done</li>
           </ul>
+          <Link className = {style.link}href="https://github.com/anthony2515/kanban-board">https://github.com/anthony2515/kanban-board</Link>
           </div>
         </div>
         {/* Skills Section */}
@@ -135,6 +139,7 @@ export default function Home() {
         <ul className={style.skillDescription}>
           <li>I mainly use HTML, CSS React.js, Javascript, TypeScript, Knex, Node.js, Sqlite3</li>
           <li>Building and Consuming API's</li>
+          <li>I use Figma for planning web design</li>
           <li>Git and Github</li>
           <li>Test Driven Development using Javascript libraries</li>
           <li>Project Deployment using Vercel</li>

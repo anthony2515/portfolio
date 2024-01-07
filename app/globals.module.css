@@ -156,6 +156,7 @@
   background-color: white;
 }
 .projectDesc{
+  position:relative;
   height: 26vh;
   width: 100vw;
   border-radius: 17px;
@@ -165,7 +166,14 @@
 .textColor{
   color:#30D6ED;
 }
+.link{
+  position:absolute;
+  top:10px;
+  left:10px;
+  color:rgb(10, 139, 96);
+}
 .projectTitle{
+  
   text-align:center;
   color:rgb(214, 203, 203);
   font-size:1.5rem;
