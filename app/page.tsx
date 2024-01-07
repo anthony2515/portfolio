@@ -80,9 +80,9 @@ export default function Home() {
           {/* Project Description */}
           <div className={style.projectDesc}>
             
-            <p className = {style.projectTitle}>Ton's Grocery</p>
+            <p className = {style.projectTitle}>Tons Grocery</p>
             <ul className = {style.projectDescFont}>
-             <li>It's a personal project that is inspired by cloning Mighty Ape. However, I’m still working on it as it has so many features to work on. But most importantly, I met my MVP(minimum viable product) to get this started. </li>
+             <li>Its a personal project that is inspired by cloning Mighty Ape. However, I’m still working on it as it has so many features to work on. But most importantly, I met my MVP(minimum viable product) to get this started. </li>
               <li>The MVP for this project is to add an admin page (no authentication yet) and the admin can add products and are able to upload an image of the product and post it on the home route</li>
               <li>After my MVP has met I added authentication for buyers</li>
               <li>I can see that this project have potential to be something big if im going to keep adding more features to it</li>
@@ -107,7 +107,7 @@ export default function Home() {
           <p className = {style.projectTitle}>Hungry Games</p>
           <ul className = {style.projectDescFont}>
           <li>This is one of our group projects that I worked on and this is made for users who are confused about choosing a restaurant. The main goal of this project is to give them one random restaurant to go to. </li>
-          <li>- My contribution to this project is to consume an API from Google Maps API to get the specific coordinates of the location that users typed and also made a delete functionality for users to delete some locations that they don't want on the list</li>
+          <li>- My contribution to this project is to consume an API from Google Maps API to get the specific coordinates of the location that users typed and also made a delete functionality for users to delete some locations that they dont want on the list</li>
           </ul>
           <Link className = {style.link}href="https://github.com/anthony2515/Hungry-Games">https://github.com/anthony2515/Hungry-Games</Link>
           </div>
@@ -126,7 +126,7 @@ export default function Home() {
           <div className={style.projectDesc}>
           <p className = {style.projectTitle}>Kanban Board</p>
           <ul className = {style.projectDescFont}>
-          <li>- a simple project that replicates a Kanban Board where the user can add a backlog and move tasks to the next stages until it's done</li>
+          <li>- a simple project that replicates a Kanban Board where the user can add a backlog and move tasks to the next stages until its done</li>
           </ul>
           <Link className = {style.link}href="https://github.com/anthony2515/kanban-board">https://github.com/anthony2515/kanban-board</Link>
           </div>
@@ -138,7 +138,7 @@ export default function Home() {
         <p className = {style.skillFont}>Technical Skills</p>
         <ul className={style.skillDescription}>
           <li>I mainly use HTML, CSS React.js, Javascript, TypeScript, Knex, Node.js, Sqlite3</li>
-          <li>Building and Consuming API's</li>
+          <li>Building and Consuming APIs</li>
           <li>I use Figma for planning web design</li>
           <li>Git and Github</li>
           <li>Test Driven Development using Javascript libraries</li>
@@ -160,7 +160,7 @@ export default function Home() {
       <div className = {style.eduContainer}>
         <p className = {style.eduFont}>Dev Academy Aotearoa</p>
         <p className = {style.dateFont}>Aug 2023 - Dec 2023</p>
-        <p className = {style.eduDescription}>It's a 17-week web development boot camp that imitates a real-life development team. This course taught us a modern tech stack with a
+        <p className = {style.eduDescription}>It{'&apos'}s a 17-week web development boot camp that imitates a real-life development team. This course taught us a modern tech stack with a
             strong focus on human skills, collaboration, and working in a team using agile methodology. We were trained to work in pairs daily with an
             opportunity to give valuable feedback to each other and work on a larger group of 4-5 members before the weekends.
         </p>
