@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div>
+<h1>Hello Everyone</h1>
+<h2>Welcome to my landing page</h2>
+<p>On this page, you can see 3 sections:</p>
+<ul>
+<li>Home section</li>
+<li>Projects</li>
+<li>Skills</li>
+<li>Education</li>
+</ul>
+</div>
+<h1>Home Section</h1>
+<p>The first things that you can see when you go to my landing page is the home section. Where you can see a <strong>navigation bar</strong> that will navigate you on a certain section of the page when you clicked it.</p>
+<p>At the top-right corner you can see my linkedIn profile, github page and you can dowload my CV by clicking the logo.
+<img src = "home-section.PNG">
+<h1>Projects</h1>
+<p>Here you can see 3 projects that I made. Each project shows the description and the tools that I used for developing and a github link which is associated for each projects. And you can also play the video to see the demonstration</p>
+<img src = "projects-section.PNG">
+<h1>Skills Section</h1>
+<p>This section shows my skills on technical and non technical skills(human skills)</p>
+<img src = "skills-section.PNG">
+<h1>Education Section</h1>
+<p>This section shows my educational background</p>
+<img src = "education-section.PNG">
+<h1>That's all!</h1>
+<p>Thank you for taking your time to read this documentation. Have a great day</p>
